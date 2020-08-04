@@ -2,9 +2,29 @@
 	margin: 0;
 	padding: 0;
 }
-header{
-	background-image: url("https://images.unsplash.com/photo-1553532646-968536ab10e7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
-	height: 100vh;
-	background-size: cover;
-	background-position: center;
+body{
+	background-color: #0b0c10;
+	min-width: 100vh;
+}
+.nav{
+  position: absolute;
+  margin: 5px;
+  width: auto;
+
+}
+.mainMenu{
+  overflow: hidden;
+  background-color: #1f2833;
+}
+.mainMenu a {
+  float: left;
+  color: #c5c6c7;
+  text-align: center;
+  padding: 14px 18px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.mainMenu a:hover {
+  background-color: #66fcf1;
+  color: black;
 }
